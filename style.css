@@ -1,0 +1,803 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 45px;
+    color: blue;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 14px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 5px 5px 9px 7px;
+}
+
+.input1 {
+    background-color: rgb(243, 240, 240);
+    width: 138%;
+    margin: 4px 5px 2px 400px;
+    padding: 10px;
+    border-radius: 4px;
+    outline: transparent;
+}
+
+.input2 {
+    background-color: rgb(243, 240, 240);
+    width: 138%;
+    margin: 4px 5px 2px 400px;
+    padding: 9px;
+    border-radius: 4px;
+    
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    width: 23%;
+    margin: 12px 0 0 517px;
+    padding: 9px;
+    border-radius: 4px;
+}
+
+.p {
+    position: relative;
+    top: 2px;
+    text-align: center;
+    margin: 20px;
+}
+
+.p::after {
+    /*content: "";
+    width: 220%;
+    height: 50%;
+   
+    margin: 5px 3px 5px 6px;
+    background-color: black;*/
+    position: absolute;
+    bottom: 40;
+    width: 298%;
+    height: 600%;
+    margin: 0 0 0 500px;
+    background-color: black;
+    border-radius: 20px 20px 20px 20px;
+   
+}
+
+.p::before {
+    content: "";
+    width: 120%;
+    height: 55%;
+    
+    margin: 5px 3px 5px 6px;
+    background-color: black;
+}
+
+
+
+.btns {
+    background-color: green;
+    color: white;
+    width: 20%;
+    margin: 9px 0 0 538px;
+    padding: 9px;
+    border-radius: 4px;
+}
+
+.for {
+    text-align: center;
+    color: blue;
+    margin: 7px 0 0 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 490px 5px 490px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 27px;
+}
+
+@media screen and (max-width: 720px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h2 {
+        color: blue;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 14px;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: 5px 5px 9px 7px;
+    }
+    
+    .input1 {
+        background-color: rgb(243, 240, 240);
+        width: 138%;
+        margin: 4px 5px 2px 6px;
+        padding: 9px;
+        border-radius: 4px;
+        outline: transparent;
+    }
+    
+    .input2 {
+        background-color: rgb(243, 240, 240);
+        width: 138%;
+        margin: 4px 5px 2px 6px;
+        padding: 9px;
+        border-radius: 4px;
+        
+    }
+    
+    .btn {
+        background-color: blue;
+        color: white;
+        width: 94%;
+        margin: 12px 0 0 14px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .p {
+        position: relative;
+        top: 2px;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .p::after {
+        /*content: "";
+        width: 220%;
+        height: 50%;
+       
+        margin: 5px 3px 5px 6px;
+        background-color: black;*/
+        position: absolute;
+        bottom: 40;
+        width: 298%;
+        height: 600%;
+        margin: 0 0 0 500px;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+       
+    }
+    
+    .p::before {
+        content: "";
+        width: 120%;
+        height: 55%;
+        
+        margin: 5px 3px 5px 6px;
+        background-color: black;
+    }
+    
+    
+    
+    .btns {
+        background-color: green;
+        color: white;
+        width: 30%;
+        margin: 9px 0 0 256px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .for {
+        text-align: center;
+        color: blue;
+        margin: 7px 0 0 10px;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 60px 5px 90px;
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        margin-top: 27px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h2 {
+        color: blue;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 14px;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: 5px 5px 9px 7px;
+    }
+    
+    .input1 {
+        background-color: rgb(243, 240, 240);
+        width: 138%;
+        margin: 4px 5px 2px 6px;
+        padding: 9px;
+        border-radius: 4px;
+        outline: transparent;
+    }
+    
+    .input2 {
+        background-color: rgb(243, 240, 240);
+        width: 138%;
+        margin: 4px 5px 2px 6px;
+        padding: 9px;
+        border-radius: 4px;
+        
+    }
+    
+    .btn {
+        background-color: blue;
+        color: white;
+        width: 91%;
+        margin: 12px 0 0 11px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .p {
+        position: relative;
+        top: 2px;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .p::after {
+        /*content: "";
+        width: 220%;
+        height: 50%;
+       
+        margin: 5px 3px 5px 6px;
+        background-color: black;*/
+        position: absolute;
+        bottom: 40;
+        width: 298%;
+        height: 600%;
+        margin: 0 0 0 500px;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+       
+    }
+    
+    .p::before {
+        content: "";
+        width: 120%;
+        height: 55%;
+        
+        margin: 5px 3px 5px 6px;
+        background-color: black;
+    }
+    
+    
+    
+    .btns {
+        background-color: green;
+        color: white;
+        width: 30%;
+        margin: 9px 0 0 130px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .for {
+        text-align:center ;
+        color: blue;
+        margin: 7px 0 0 9px;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 190px 5px 80px;
+        padding: 0 15px 0 6px;
+        text-align: center;
+    }
+
+    .eng {
+        margin-right: 55px;
+    }
+
+    
+    
+    footer {
+        text-align: center;
+        margin-top: 27px;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h2 {
+        color: blue;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 14px;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: 5px 5px 9px 7px;
+    }
+    
+    .input1 {
+        background-color: rgb(243, 240, 240);
+        width: 138%;
+        margin: 4px 5px 2px 6px;
+        padding: 9px;
+        border-radius: 4px;
+        outline: transparent;
+    }
+    
+    .input2 {
+        background-color: rgb(243, 240, 240);
+        width: 138%;
+        margin: 4px 5px 2px 6px;
+        padding: 9px;
+        border-radius: 4px;
+        
+    }
+    
+    .btn {
+        background-color: blue;
+        color: white;
+        width: 93%;
+        margin: 12px 0 0 14px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .p {
+        position: relative;
+        top: 2px;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .p::after {
+        /*content: "";
+        width: 220%;
+        height: 50%;
+       
+        margin: 5px 3px 5px 6px;
+        background-color: black;*/
+        position: absolute;
+        bottom: 40;
+        width: 298%;
+        height: 600%;
+        margin: 0 0 0 500px;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+       
+    }
+    
+    .p::before {
+        content: "";
+        width: 120%;
+        height: 55%;
+        
+        margin: 5px 3px 5px 6px;
+        background-color: black;
+    }
+    
+    
+    
+    .btns {
+        background-color: green;
+        color: white;
+        width: 30%;
+        margin: 9px 0 0 130px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .for {
+        text-align:center ;
+        color: blue;
+        margin: 7px 0 0 9px;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 190px 5px 80px;
+        padding: 0 15px 0 6px;
+        text-align: center;
+    }
+
+    .eng {
+        margin-right: 55px;
+    }
+
+    
+    
+    footer {
+        text-align: center;
+        margin-top: 27px;
+    }
+}
+@media screen and (max-width: 360px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h2 {
+        color: blue;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 14px;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: 5px 5px 9px 7px;
+    }
+    
+    .input1 {
+        background-color: rgb(243, 240, 240);
+        width: 138%;
+        margin: 4px 5px 2px 6px;
+        padding: 9px;
+        border-radius: 4px;
+        outline: transparent;
+    }
+    
+    .input2 {
+        background-color: rgb(243, 240, 240);
+        width: 138%;
+        margin: 4px 5px 2px 6px;
+        padding: 9px;
+        border-radius: 4px;
+        
+    }
+    
+    .btn {
+        background-color: blue;
+        color: white;
+        width: 93%;
+        margin: 12px 0 0 14px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .p {
+        position: relative;
+        top: 2px;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .p::after {
+        /*content: "";
+        width: 220%;
+        height: 50%;
+       
+        margin: 5px 3px 5px 6px;
+        background-color: black;*/
+        position: absolute;
+        bottom: 40;
+        width: 298%;
+        height: 600%;
+        margin: 0 0 0 500px;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+       
+    }
+    
+    .p::before {
+        content: "";
+        width: 120%;
+        height: 55%;
+        
+        margin: 5px 3px 5px 6px;
+        background-color: black;
+    }
+    
+    
+    
+    .btns {
+        background-color: green;
+        color: white;
+        width: 30%;
+        margin: 9px 0 0 130px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .for {
+        text-align:center ;
+        color: blue;
+        margin: 7px 0 0 9px;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 190px 5px 80px;
+        padding: 0 15px 0 6px;
+        text-align: center;
+    }
+
+    .eng {
+        margin-right: 55px;
+    }
+
+    
+    
+    footer {
+        text-align: center;
+        margin-top: 27px;
+    }
+}
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h2 {
+        color: blue;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 14px;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: 5px 5px 9px 7px;
+    }
+    
+    .input1 {
+        background-color: rgb(243, 240, 240);
+        width: 140%;
+        margin: 4px 8px 2px 9px;
+        padding: 9px;
+        border-radius: 4px;
+        outline: transparent;
+    }
+    
+    .input2 {
+        background-color: rgb(243, 240, 240);
+        width: 140%;
+        margin: 4px 8px 2px 9px;
+        padding: 9px;
+        border-radius: 4px;
+        
+    }
+    
+    .btn {
+        background-color: blue;
+        color: white;
+        width: 95%;
+        margin: 12px 0 0 19px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .p {
+        position: relative;
+        top: 2px;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .p::after {
+        /*content: "";
+        width: 220%;
+        height: 50%;
+       
+        margin: 5px 3px 5px 6px;
+        background-color: black;*/
+        position: absolute;
+        bottom: 40;
+        width: 298%;
+        height: 600%;
+        margin: 0 0 0 500px;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+       
+    }
+    
+    .p::before {
+        content: "";
+        width: 120%;
+        height: 55%;
+        
+        margin: 5px 3px 5px 6px;
+        background-color: black;
+    }
+    
+    
+    
+    .btns {
+        background-color: green;
+        color: white;
+        width: 30%;
+        margin: 9px 0 0 266px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .for {
+        text-align:center ;
+        color: blue;
+        margin: 7px 0 0 9px;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 0px 5px 150px;
+        padding: 0 8px 0 6px;
+        text-align: center;
+    }
+
+    
+     footer {
+        text-align: center;
+        margin-top: 27px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h2 {
+        color: blue;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 14px;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: 5px 5px 9px 7px;
+    }
+    
+    .input1 {
+        background-color: rgb(243, 240, 240);
+        width: 138%;
+        margin: 4px 5px 2px 20px;
+        padding: 9px;
+        border-radius: 4px;
+        outline: transparent;
+    }
+    
+    .input2 {
+        background-color: rgb(243, 240, 240);
+        width: 138%;
+        margin: 4px 5px 2px 20px;
+        padding: 9px;
+        border-radius: 4px;
+        
+    }
+    
+    .btn {
+        background-color: blue;
+        color: white;
+        width: 95%;
+        margin: 12px 0 0 27px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .p {
+        position: relative;
+        top: 2px;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .p::after {
+        /*content: "";
+        width: 220%;
+        height: 50%;
+       
+        margin: 5px 3px 5px 6px;
+        background-color: black;*/
+        position: absolute;
+        bottom: 40;
+        width: 298%;
+        height: 600%;
+        margin: 0 0 0 500px;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+       
+    }
+    
+    .p::before {
+        content: "";
+        width: 120%;
+        height: 55%;
+        
+        margin: 5px 3px 5px 6px;
+        background-color: black;
+    }
+    
+    
+    
+    .btns {
+        background-color: green;
+        color: white;
+        width: 30%;
+        margin: 9px 0 0 390px;
+        padding: 9px;
+        border-radius: 4px;
+    }
+    
+    .for {
+        text-align:center ;
+        color: blue;
+        margin: 7px 0 0 9px;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 290px 5px 280px;
+        padding: 0 15px 0 6px;
+        text-align: center;
+    }
+
+    .eng {
+        margin-right: 55px;
+    }
+
+    
+    
+    footer {
+        text-align: center;
+        margin-top: 27px;
+    }
+}
